@@ -9,5 +9,5 @@
 
 angular.module('gui.directives', []);
 angular.module('gui.filters', []);
-angular.module('services', []);
-angular.module('gui-ui', ['gui.directives','gui.filters','services']);
+angular.module('utils', []);
+angular.module('gui-ui', ['gui.directives','gui.filters','utils']);

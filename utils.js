@@ -1,4 +1,4 @@
-angular.module('services').factory('utils', function (){
+angular.module('utils').factory('utils', function (){
 
 
     var EPPZScrollTo =
