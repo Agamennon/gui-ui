@@ -1,0 +1,20 @@
+{
+  "name": "gui-ui",
+  "version": "0.1.0",
+  "authors": [
+    "gui <agamennon@gmail.com>"
+  ],
+  "description": "Angular ui and jquery ui mash for angularjs",
+  "main": "gui-ui.js",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

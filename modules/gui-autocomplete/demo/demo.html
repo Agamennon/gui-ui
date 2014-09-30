@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="demo" >
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="init.js"></script>
+    <script src="../../gui-ui.js"></script>
+    <script src="../allow.js"></script>
+    <script src="demo.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+<div>
+    <p>Eu sou visivel</p>
+    <p allow="['admin']" user="usuario" >Apenas admin me ve</p>
+    <p allow="['vendedor']" user="usuario">Apenas admin e vendedor me ve</p>
+</div>
+</body>
+</html>
+
