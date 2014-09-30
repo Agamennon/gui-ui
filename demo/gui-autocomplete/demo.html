@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="demo" >
+<head>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <link  rel="stylesheet" href='https://code.jquery.com/ui/1.11.1/themes/cupertino/jquery-ui.css' type='text/css'>
+    <link  rel="stylesheet" href='http://cdnjs.cloudflare.com/ajax/libs/foundation/5.4.5/css/foundation.min.css' type='text/css'>
+
+
+
+
+
+    <script src="init.js"></script>
+    <script src="../../gui-ui.js"></script>
+   <!-- <script src="../../utils.js"></script>-->
+    <script src="../../gui-filters/gui-filters.js"></script>
+    <script src="../gui-autocomplete.js"></script>
+    <script src="demo.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+<div>
+  <div class="row">
+      <div class="small-5">
+    <auto-sugestao tipo="combobox" bind-to=""  ng-model="item" source="sourceArray"></auto-sugestao> {{item}}
+      </div>
+  </div>
+
+</div>
+</body>
+</html>
+
